@@ -10,10 +10,11 @@
     };
     age();
     function age_next_year(){
+        Global $name;
         $current_age = age();
         $newage= $current_age+1;
         // $newage = $nowage+1;
-        echo "you will be $newage next year";
+        echo "$name will be $newage next year";
     };
     age_next_year();
 ?>
