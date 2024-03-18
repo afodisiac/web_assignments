@@ -1,0 +1,98 @@
+what are the properties of css and what they do on a page
+Color Properties:
+
+color: Sets the text color.
+background-color: Sets the background color of an element.
+Typography Properties:
+
+font-family: Specifies the font family for text.
+font-size: Sets the size of the font.
+font-weight: Defines the weight (boldness) of the font.
+text-align: Aligns text horizontally within its container.
+line-height: Sets the height of a line of text.
+text-decoration: Adds decoration to text (e.g., underline, line-through).
+text-transform: Controls the capitalization of text.
+Layout Properties:
+
+width and height: Sets the width and height of an element, respectively.
+margin: Sets the margin space around an element.
+padding: Sets the padding space between the element's content and its border.
+display: Specifies the type of box model used for an element (e.g., block, inline).
+position: Defines the positioning method for an element (e.g., relative, absolute).
+float: Positions an element to the left or right side of its container, allowing content to flow around it.
+flexbox and grid: Advanced layout models for creating flexible and responsive layouts.
+Border and Box Properties:
+
+border: Sets the border around an element.
+border-radius: Adds rounded corners to an element's border.
+box-shadow: Adds a shadow effect to an element.
+box-sizing: Defines how the total width and height of an element are calculated (e.g., content-box, border-box).
+Miscellaneous Properties:
+
+opacity: Sets the transparency level of an element.
+z-index: Specifies the stack order of an element.
+cursor: Defines the type of cursor to be displayed when hovering over an element.
+transition and animation: Properties used to create animations and transitions.
+
+give 20 elments of hyml and what they do
+<h1> to <h6>: These elements represent headings of different levels, from most important (<h1>) to least important (<h6>).
+
+<p>: Defines a paragraph of text.
+
+<a>: Creates a hyperlink, allowing users to navigate to another webpage or resource.
+
+<img>: Embeds an image into the webpage.
+
+<ul> and <ol>: These elements create unordered (bullet-pointed) and ordered (numbered) lists, respectively.
+
+<li>: Represents an item in a list (<ul> or <ol>).
+
+<div>: Defines a division or section of the HTML document, used for grouping and styling purposes.
+
+<span>: Similar to <div>, but used for applying styles to inline elements.
+
+<table>: Creates a table for organizing data into rows and columns.
+
+<tr>: Defines a row within a table.
+
+<th>: Represents a header cell within a table.
+
+<td>: Defines a standard cell within a table.
+
+<form>: Creates an interactive form for collecting user input.
+
+<input>: Represents an input control, such as a text field, checkbox, or radio button, within a form.
+
+<button>: Defines a clickable button.
+
+<textarea>: Creates a multiline text input field within a form.
+
+<label>: Associates a label with a form control, providing a description or name for the input field.
+
+<select>: Defines a dropdown list within a form.
+
+<option>: Represents an option within a dropdown list (<select>).
+
+<iframe>: Embeds another HTML document within the current webpage, often used for displaying external content like maps or videos.
+
+
+how do we use bootstrap in html
+Include Bootstrap CSS: Add the Bootstrap CSS stylesheet to your HTML file. You can either download Bootstrap and 
+host it locally or link to the Bootstrap CDN (Content Delivery Network) in your HTML file's <head> section. Here's 
+how you can include Bootstrap via CDN:
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+Add Bootstrap JavaScript: If you plan to use Bootstrap's JavaScript components (like dropdowns, modals, etc.), include
+ Bootstrap's JavaScript file before the closing </body> tag. Similar to the CSS, you can host it locally or use the CDN.
+  Here's how to include Bootstrap's JavaScript via CDN:
+  <body>
+    <!-- Your HTML content here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+Use Bootstrap Classes: Once you've included Bootstrap, you can start using its predefined CSS classes in your HTML
+ elements to apply styling and layout. For example, you can use classes like container, row, col, btn, alert, etc.,
+  to style your content according to Bootstrap's design principles.

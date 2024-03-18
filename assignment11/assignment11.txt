@@ -1,0 +1,14 @@
+what do the folloeing mean?
+    dbhost:This parameter specifies the hostname or IP address of the database server. It tells the application where to 
+find the database server on the network. For example, if your MySQL database server is hosted locally, the DB host 
+might be "localhost". If it's hosted remotely, you would specify the server's IP address or domain name.
+    dbuser:This parameter specifies the username used to authenticate the connection to the database server. This 
+user should have the necessary privileges to perform the required operations on the database.
+    dbname:This parameter specifies the name of the database to which you want to connect. Once connected, all SQL 
+queries executed by the application will be performed within this database context.
+    dbport: This parameter specifies the port number on which the database server is listening for connections. 
+The default port for MySQL is 3306. If your database server is configured to listen on a different port, you would 
+specify it here.
+    dbpass:This parameter specifies the password used to authenticate the connection to the database server. It's 
+important to keep this password secure and not hardcode it directly into your application code for security 
+reasons. Instead, consider using environment variables or a configuration file.
